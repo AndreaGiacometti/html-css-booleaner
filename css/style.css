@@ -5,10 +5,6 @@
     padding: 0;
 }
 
-.article-list {
-    list-style: none;
-}
-
 /* HEADER STYLE */
 
 .article-header {
@@ -45,6 +41,10 @@ section a{
 
 /* PHOTO STYLE */
 
+figure {
+    padding-top: 20px;
+}
+
 .tim-pic{
     height: 300px;
 }
@@ -55,6 +55,48 @@ section a{
 
 /* PARAGRAPH STYLE */
 
-.article-paragraph{
-    padding: 20px 0px;
+.article-paragraph {
+    padding: 20px 0p;
 }
+
+/* LIST STYLE */
+
+.article-list {
+    list-style-position: inside;
+    padding-bottom: 20px;
+}
+
+/* TABLE STYLE */
+
+.article-table {
+    width: 100%;
+}
+
+.table-head {
+    background-color: rgb(127, 166, 251);
+    color: white;
+    text-align: left;
+}
+
+.colored-cell {
+    background-color: rgb(223, 229, 242);
+}
+
+.column-25 {
+    width: 25%;
+}
+
+.column-50 {
+    width: 50%;
+}
+
+td {
+    padding: 10px 0px;
+}
+
+/* GENERAL LAYOUT SETTING */
+
+.article-layout {
+    margin: 30px 16px   ;
+}
+
