@@ -43,6 +43,7 @@ section a{
 
 figure {
     padding-top: 20px;
+    display:inline-block;
 }
 
 .tim-pic{
