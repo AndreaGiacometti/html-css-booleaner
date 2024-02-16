@@ -56,7 +56,7 @@ figure {
 /* PARAGRAPH STYLE */
 
 .article-paragraph {
-    padding: 20px 0p;
+    padding: 20px 0px;
 }
 
 /* LIST STYLE */
@@ -90,13 +90,18 @@ figure {
     width: 50%;
 }
 
-td {
-    padding: 10px 0px;
-}
-
 /* GENERAL LAYOUT SETTING */
 
 .article-layout {
     margin: 30px 16px   ;
 }
 
+/* FOOTER STYLE */
+
+footer {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    background-color: rgb(49, 58, 107);
+    padding: 15px;
+}
