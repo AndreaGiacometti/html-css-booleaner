@@ -42,3 +42,19 @@ section a{
     color: rgb(143, 135, 134);
     font-size: 14px;
 }
+
+/* PHOTO STYLE */
+
+.tim-pic{
+    height: 300px;
+}
+
+.caption {
+    font-size: 12px;
+}
+
+/* PARAGRAPH STYLE */
+
+.article-paragraph{
+    padding: 20px 0px;
+}
